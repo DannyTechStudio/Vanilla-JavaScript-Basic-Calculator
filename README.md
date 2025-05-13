@@ -6,16 +6,16 @@ A simple and responsive calculator built with **HTML**, **CSS**, and **Vanilla J
 ![Screenshot 2025-05-13 015535](https://github.com/user-attachments/assets/c802ec6d-bae7-422b-ba35-5447627015c4)
 
 # Preview
+https://dannytechstudio.github.io/Vanilla-JavaScript-Basic-Calculator/
 
-##  Features
-
+# Features
 - Responsive design (works on mobile and desktop)
 - Addition, subtraction, multiplication, division
 - Clear (`C`) and All Clear (`AC`) functionality
 - Recall last answer (`Ans`)
 - Handles decimals and operator chaining
 
-## Project Structure
+# Project Structure
 Basic-Calculator/
 ├── index.html
 ├── style.css
