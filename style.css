@@ -1,0 +1,124 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(0, 0%, 100%);
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.title {
+    display: inline-block;
+    margin-bottom: 80px;
+    font-size: 1.2em;
+    margin-top: 50px;
+}
+
+.main{
+    color: rgb(8, 8, 88);
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.sub{
+    color: hsl(328, 100%, 48%);
+    font-weight: bold;
+    font-size: 1em;
+    font-style: italic;
+}
+
+.calculator{
+    width: 250px;
+    background-color: hsl(0, 0%, 100%);
+    border: 1px solid rgba(0, 0, 0, 0.548);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rbga(0, 0, 0, 0.1);
+    margin: 0px;
+    padding: 10px;
+    padding-bottom: 20px;
+}
+
+.calculator-screen{
+    width: 230px;
+    display: flex;
+    height: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.548);
+    border-radius: 2px;
+    background-color: #f8f6f6;
+    color: #000000;
+    text-align: right;
+    font-size: 1.5em;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    word-wrap: break-word;
+    word-break: break-all;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.calculator-buttons{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 6px;
+}
+
+.btn{
+    height: 42px;
+    padding: 2px;
+    border: 1px solid rgba(0, 0, 0, 0.548);
+    border-radius: 20%;
+    background-color: hsla(0, 2%, 88%, 0.695);
+    font-size: 1.5em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:active{
+    background-color: hsl(0, 0%, 90%);
+}
+
+.operator{
+    background-color: hsl(35, 100%, 50%);
+    color: #170101;
+}
+
+.operator:active{
+    background-color: #f7c987;
+}
+
+.equal-sign{
+    background-color: hsl(117, 100%, 50%);
+    color: #090101;
+    grid-column: span 1;
+}
+
+.equal-sign:active{
+    background-color: hsla(117, 100%, 60%);
+}
+
+.all-clear{
+    background-color: hsl(3, 100%, 50%);
+    color: #0c0606;
+    grid-column: span 1;
+}
+
+.all-clear:active{
+    background-color: hsl(0, 91%, 59%);
+}
+
+.clear{
+    background-color: rgb(255, 54, 36);
+}
+
+.clear:active {
+    background-color:  rgb(243, 89, 75);
+}
+
+.ans{
+    background-color: rgb(87, 206, 242);
+}
+
